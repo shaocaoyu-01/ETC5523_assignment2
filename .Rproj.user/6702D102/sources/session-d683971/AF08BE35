@@ -1,0 +1,32 @@
+{
+    "id": "AF08BE35",
+    "path": "~/ETC5523_assignment2/Assignment2.qmd",
+    "project_path": "Assignment2.qmd",
+    "type": "quarto_markdown",
+    "hash": "273398686",
+    "contents": "",
+    "dirty": false,
+    "created": 1757573373398.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "rmdVisualMode": "true",
+        "rmdVisualWrapConfigured": "true",
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "0,0",
+        "scrollLine": "0",
+        "docOutlineVisible": "1",
+        "rmdVisualModeLocation": "60:0",
+        "rmdVisualCollapsedChunks": ""
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1757573422,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1757573422692,
+    "read_only": false,
+    "read_only_alternatives": []
+}
