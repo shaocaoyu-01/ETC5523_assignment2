@@ -3,3 +3,27 @@ title: "assignment2"
 format: html
 editor: visual
 ---
+
+Executive summary: This article is about the Delta-like SARS- CoV -2, quarantine systems remain valuable but are not enough on their own. To keep outbreak risk low, authorities need highly effective vaccines, high community coverage, and uncompromising infection control inside quarantine facilities——— otherwise the probability and speed of community outbreaks rise sharply as transmissibility increases.
+
+Introduction to the problem : The study evaluates how well "low-tolerance" border-quarantine systems(like those used in Australia and New Zealand and China during 2020-2021) can prevent the community outbreaks when more transmissible variants(notable Delta)
+
+key results:
+
+brief methods:
+
+-   Two stage modelling framework
+
+    An individual -based model of hotel-quarantine facility(100 travellers; \~20 vaccinated staff)with 14-day minimum stay, RT-PCR testing on day 3 and day 12, cohorting travellers in groups of four, and rapid isolation of positives and close contacts.
+
+    A branching-process model that ingests "branch events" from stage 1 to estimate the probability of community outbreaks
+
+-   Key parameters & scenarios
+
+    Variant transmissibility parameterized by R0 ranging from \~3(pre-Delta) up to 10(Delta-like upper bound)
+
+    Vaccine effectiveness(VE) considered against infection and (in sensitivity analyses) against onward transmission; community coverage varied from 10% top 100%.
+
+    Primary performance metric: cumulative "infectious pressure" of quarantine breaches relative to a pre-vaccine baseline.
+
+conclusion
