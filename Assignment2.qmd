@@ -1,16 +1,30 @@
 ---
-title: "assignment2"
+title: "Assignment2: Summarising technical content"
+author: Caoyu_Shao
 format: html
 editor: visual
+published:
 ---
 
-Executive summary: This article is about the Delta-like SARS- CoV -2, quarantine systems remain valuable but are not enough on their own. To keep outbreak risk low, authorities need highly effective vaccines, high community coverage, and uncompromising infection control inside quarantine facilities——— otherwise the probability and speed of community outbreaks rise sharply as transmissibility increases.
+# Part A
 
-Introduction to the problem : The study evaluates how well "low-tolerance" border-quarantine systems(like those used in Australia and New Zealand and China during 2020-2021) can prevent the community outbreaks when more transmissible variants(notable Delta)
+## Report
 
-key results:
+### Executive summary:
 
-brief methods:
+The article is about impact of Delta variant of SARS-CoV-2. Quarantine systems remain valuable but not enough for authorities to control the outbreak of the epidemics. Mass vaccinations, highly effective vaccines and infection control inside quarantine facilities are necessary. Without them, the speed and possibility of the community outbreaks will rise sharply as the transmissibility increases.
+
+### Introduction to the problem :
+
+More transmissible variants(notable Delta) of SARS-CoV-2 appeared and posed great challenges to initial quarantine system. The article evaluates how well "low-tolerance" border-quarantine systems can prevent the community outbreaks. Then it indicates that quarantine system is valuable but not enough.
+
+### Key results:
+
+We find that under the assumption that the R0 =3 and VE=0， when R0 increases, to maintain the risk steady, VE should be greater than 60% if R0=6, VE should be greater than 70% if R0=8. However, when R0 =10, the VE need to be greater than 70% as well.
+
+![](images/Screenshot 2025-09-13 at 11.15.50 pm.png)
+
+### Brief methods:
 
 -   Two stage modelling framework
 
@@ -26,4 +40,6 @@ brief methods:
 
     Primary performance metric: cumulative "infectious pressure" of quarantine breaches relative to a pre-vaccine baseline.
 
-conclusion
+### Conclusion:
+
+# Part B
