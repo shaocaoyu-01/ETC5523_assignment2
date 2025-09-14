@@ -8,7 +8,7 @@
 
 <meta name="author" content="Caoyu_Shao">
 
-<title>Assignment2: Summarising technical content</title>
+<title>Assignment2: Summarising technical content of article–COVID-19</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,7 +33,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="Assignment2_files/libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="Assignment2_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="Assignment2_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="Assignment2_files/libs/bootstrap/bootstrap-1bc8a17f135ab3d594c857e9f48e611b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="Assignment2_files/libs/bootstrap/bootstrap-c0367b04c37547644fece4185067e4a7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 
 
 </head>
@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Assignment2: Summarising technical content</h1>
+<h1 class="title">Assignment2: Summarising technical content of article–COVID-19</h1>
 </div>
 
 
@@ -71,15 +71,15 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="part-a" class="level1">
 <h1>Part A</h1>
-<section id="report" class="level2">
-<h2 class="anchored" data-anchor-id="report">Report</h2>
+<section id="executive-focused-report" class="level2">
+<h2 class="anchored" data-anchor-id="executive-focused-report">Executive-focused Report</h2>
 <section id="executive-summary" class="level3">
 <h3 class="anchored" data-anchor-id="executive-summary">Executive summary:</h3>
 <p>The article is about impact of Delta variant of SARS-CoV-2. Quarantine systems remain valuable but not enough for authorities to control the outbreak of the epidemics. Mass vaccinations, highly effective vaccines and infection control inside quarantine facilities are necessary. Without them, the speed and possibility of the community outbreaks will rise sharply as the transmissibility increases.</p>
 </section>
 <section id="introduction-to-the-problem" class="level3">
 <h3 class="anchored" data-anchor-id="introduction-to-the-problem">Introduction to the problem :</h3>
-<p>More transmissible variants(notable Delta) of SARS-CoV-2 appeared and posed great challenges to initial quarantine system. The article evaluates how well “low-tolerance” border-quarantine systems can prevent the community outbreaks. Then it indicates that quarantine system is valuable but not enough.</p>
+<p>More transmissible variants(notable Delta) of SARS-CoV-2 appeared and posed great challenges to initial quarantine system. The article will evaluate how well “low-tolerance” border-quarantine systems can prevent the community outbreaks and generate the plan for the authorities to control the outbreak of virus.</p>
 </section>
 <section id="key-results" class="level3">
 <h3 class="anchored" data-anchor-id="key-results">Key results:</h3>
@@ -94,7 +94,7 @@ Figure&nbsp;1: Figure 3 in the article
 </figcaption>
 </figure>
 </div>
-<p>2.As <a href="#fig-t50" class="quarto-xref">Figure&nbsp;2</a> indicates, we find that as Vaccine coverage and VE increase, t-50 has increased.(t50 means time to reach a 50% probability of ≥5 transmission clusters)</p>
+<p>2.As <a href="#fig-t50" class="quarto-xref">Figure&nbsp;2</a> indicates, we find that as Vaccine coverage and VE increase, t-50 has increased.It takes more time to outbreak. (t-50 means time to reach a 50% probability of ≥5 transmission clusters)</p>
 <div id="fig-t50" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="&quot;centre">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-t50-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -105,26 +105,46 @@ Figure&nbsp;2: Figure 4 in the article
 </figcaption>
 </figure>
 </div>
+<ol start="3" type="1">
+<li><p>The pipeline (R0=3, unsigned) simulation obtained an “entry-permitted” breach rate of approximately 1.17×10^-4/entrant, while the actual estimate in Australia was approximately 6×10^-5/person; based on a scenario of 6,000 entrants per week, “≥5 cases” was defined as an outbreak, and the simulated annual average of about 20 outbreaks was approximately (≈6.4×10^-5/person), which means that about half of the “initial spillovers” would develop into outbreaks (0.55 times, close to the media summary data of 0.64).</p></li>
+<li><p>Including “Efficacy in Blocking Transmission” Lowers the Threshold If a vaccine not only prevents infection (VI) but also reduces “onward transmission” (VT=VE) after infection by a similar amount, the total VE threshold required to maintain baseline risk could be reduced by approximately 20%. For example, with R0=6, the threshold would only be approximately 40%, and with R0=8, approximately 50%.</p></li>
+<li><p>Shorter Incubation Period will make Isolation System More “Easy to Detect” If the incubation period is shortened from 5.5 days to 4.4 days (a possible Delta value), the faster increase in detection sensitivity and earlier symptom onset will reduce the risk of spillover (assuming the same observation period).</p></li>
+<li><p>Even if all patients were asymptomatic, maintaining baseline VE still required approximately 60%. However, with a “low VE + high R0” scenario, the risk was approximately doubled.</p></li>
+<li><p>“High vaccination rates within the isolation system” alone cannot replace “mass vaccination at the community level”; to prevent community outbreaks caused by spillovers, a combination of “high vaccination at the border/isolation + high community coverage” is required, and success or failure is highly dependent on the actual effectiveness of the vaccine in “blocking transmission.”</p></li>
+</ol>
 </section>
 <section id="brief-methods" class="level3">
 <h3 class="anchored" data-anchor-id="brief-methods">Brief methods:</h3>
 <ul>
 <li><p>Two stage modelling framework</p>
-<p>An individual -based model of hotel-quarantine facility(100 travellers; ~20 vaccinated staff)with 14-day minimum stay, RT-PCR testing on day 3 and day 12, cohorting travellers in groups of four, and rapid isolation of positives and close contacts.</p>
+<p>An individual -based model of hotel-quarantine facility(100 travellers; 20 vaccinated staff)with 14-day minimum stay, RT-PCR testing on day 3 and day 12, cohorting travellers in groups of four, and rapid isolation of positives and close contacts.</p>
 <p>A branching-process model that ingests “branch events” from stage 1 to estimate the probability of community outbreaks</p></li>
 <li><p>Key parameters &amp; scenarios</p>
-<p>Variant transmissibility parameterized by R0 ranging from ~3(pre-Delta) up to 10(Delta-like upper bound)</p>
+<p>Variant transmissibility parameterized by R0 ranging from 3(pre-Delta) up to 10(Delta-like upper bound)</p>
 <p>Vaccine effectiveness(VE) considered against infection and (in sensitivity analyses) against onward transmission; community coverage varied from 10% top 100%.</p>
 <p>Primary performance metric: cumulative “infectious pressure” of quarantine breaches relative to a pre-vaccine baseline.</p></li>
 </ul>
 </section>
 <section id="conclusion" class="level3">
 <h3 class="anchored" data-anchor-id="conclusion">Conclusion:</h3>
+<p>This study evaluates how vaccination within quarantine systems and across the community shapes both the probability and the timing of community outbreaks seeded by border breaches. Synthesizing the evidence, higher vaccine efficacy and coverage substantially prolong the median time to an outbreak, while maintaining baseline risk under more transmissible conditions requires correspondingly higher thresholds. Critically, immunity confined to quarantine settings is not sufficient: community-level coverage is indispensable for neutralizing the epidemiological pressure generated by occasional breaches. Results are sensitive to vaccines’ ability to curb onward transmission after breakthrough infection; when such effects are strong, the efficacy thresholds required to hold risk constant drop materially. Parameter changes consistent with newer variants can further modify risk under fixed quarantine durations, underscoring the need for policy that updates with current virological and operational realities.</p>
 </section>
 </section>
 </section>
 <section id="part-b" class="level1">
 <h1>Part B</h1>
+<p>In the article, we find that key takeaways are located in the results part and discussion part, but they are buried in the paragraphs, because the key takeaways should be presented after a rigorous augumentation. However, in the executive-focused report, we put all the key takeaways in the executive summary to convey the takeaways concisely and straightforward.</p>
+<p>In the article, the result was presented rigorously in a total score structure. The results in article are much detailed, including the explanation of new concept like breach risk , VE, R0. Beside in the article, the results are based on strict prerequisites. Then focus on the sensitivity analysis to research different factors’ implications. As an article, it should be neutral. So in the article, the writers attach more importance to the rigor of the argumentation. In the executive-focussed technical report, the results are presented much more concisely. We assume that readers can understand the meaning of the parameters, and we also assume that readers can agree with our assumptions. We present the results with graphs and few words. And as an executive-focused report, we have strong intentions, because it need to help the deciders to make a dicision. So in the report, what we need to attach more importance to is using the minimum words to present the results comprehensively.</p>
+<p>The article is rigorous logically, but it takes time to read them and follow up their steps. For a senior manager or officer, it is unrealistic to read these articles because of their daily burdens. Besides, it requires you to have some academic foundation. Otherwise, it will be painful for you to read the article.</p>
+<p>The executive-focused report is straightforward and concise. It has very obvious points. But we can’t see the argument process. It is risky to make a decision relying on the report if it is extracted by a stranger. It may miss some of the points in the article or some misunderstanding of the article.</p>
+</section>
+<section id="reference" class="level1">
+<h1>Reference</h1>
+<p>1.Zachreson, C., Shearer, F. M., Price, D. J., Lydeamore, M. J., McVernon, J., McCaw, J., &amp; Geard, N. (2022). <em>COVID-19 in low-tolerance border quarantine systems: Impact of the Delta variant of SARS-CoV-2</em>. <strong>Science Advances, 8</strong>(14), eabm3624. https://doi.org/10.1126/sciadv.abm3624</p>
+<p>2.Harvard Kennedy School Communications Program. (2018, April 18). <em>How to write an executive summary</em> [PDF handout]. Harvard University. <a href="https://projects.iq.harvard.edu/files/hks-communications-program/files/how_to_write_an_exex_summ_to_use_4_18_18.pdf?utm_source=chatgpt.com">https://projects.iq.harvard.edu/files/hks-communications-program/files/how_to_write_an_exex_summ_to_use_4_18_18.pdf</a></p>
+<p>3.University of Newcastle Library. (n.d.). How to write an essay: Introduction. LibGuides. <a href="https://libguides.newcastle.edu.au/how-to-write-an-essay/essay-introduction" class="uri">https://libguides.newcastle.edu.au/how-to-write-an-essay/essay-introduction</a> (Accessed September 14, 2025)</p>
+<p>4.Ammon, C. (2022, Summer). <em>Results section for research papers</em> [PDF handout]. San José State University Writing Center. <a href="https://www.sjsu.edu/writingcenter/docs/handouts/Results%20Section%20for%20Research%20Papers.pdf?utm_source=chatgpt.com">https://www.sjsu.edu/writingcenter/docs/handouts/Results%20Section%20for%20Research%20Papers.pdf</a></p>
+<p>5.Researcher.Life. (n.d.). Discussion vs conclusion: What is the difference? Researcher.Life Blog. <a href="https://www.researcher.life/blog/article/discussion-vs-conclusion-what-is-the-difference/" class="uri">https://www.researcher.life/blog/article/discussion-vs-conclusion-what-is-the-difference/</a> (Accessed September 14, 2025)</p>
 </section>
 
 </main>
