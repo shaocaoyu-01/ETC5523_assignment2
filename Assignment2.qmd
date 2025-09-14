@@ -20,9 +20,17 @@ More transmissible variants(notable Delta) of SARS-CoV-2 appeared and posed grea
 
 ### Key results:
 
-We find that under the assumption that the R0 =3 and VE=0， when R0 increases, to maintain the risk steady, VE should be greater than 60% if R0=6, VE should be greater than 70% if R0=8. However, when R0 =10, the VE need to be greater than 70% as well.
+1.As @fig-heatmap indicates, We find that under the assumption that the R0 =3 and VE=0， when R0 increases, to maintain the risk steady, VE should be greater than 60% if R0=6, VE should be greater than 70% if R0=8. However, when R0 =10, the VE need to be greater than 70% as well.
 
-![](images/Screenshot 2025-09-13 at 11.15.50 pm.png)
+![Figure 3 in the article](images/1.png){#fig-heatmap width=100% fig-align="center"}
+
+2.As @fig-t50 indicates, we find that as Vaccine coverage and VE increase, t-50 has increased.It takes more time to outbreak. (t-50 means time to reach a 50% probability of ≥5 transmission clusters)
+
+![Figure 4 in the article](images/2.png){#fig-t50 width=100% fig-align="centre}
+
+3.
+
+
 
 ### Brief methods:
 
